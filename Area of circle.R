@@ -9,4 +9,4 @@ for (i in 1:values) {
   y = c(y,area(i))
 }
 
-plot(x=c(0:5),y,type = "b", xlab ="radius", ylab = "area")
+plot(x=c(0:5),y,type = "b", xlab ="radius", ylab = "area", main = "Circle areas")
